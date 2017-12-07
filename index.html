@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.timeliny@1.0.1/dist/jquery.timeliny.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <!--Scripts-->
     <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
@@ -19,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-custom">
       <a class="navbar-brand" href="#">Aaron Swartz</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,30 +38,46 @@
       </div>
     </nav>
     <div id="fullpage">
-    	  <div class="section">Some section</div>
-      	<div class="section">Some section</div>
-      	<div class="section">Some section</div>
-      	<div class="section">Some section</div>
-    </div>
-    <!-- <div class="container-fluid">
-      <div class="row">
-        <div class="container-fluid">
-          <h1 class="display-4 text-center">Aarom Swartz - The Internet's Own Boy</h1>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <img class="img-fluid img-thumbnail d-block mx-auto" id="aa-swartz" src="img/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" alt="Aarom-Swartz-Profile-picture">
-            </div>
-            <div class="col-lg-6">
-              <div class="text-center quote">Information is power. But like all power, there are those who want to keep it for themselves.</div>
+
+        <!-- Section 1-->
+        <div class="section">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="container-fluid">
+                <h1 class="display-4 text-center">Aarom Swartz - The Internet's Own Boy</h1>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img class="img-fluid img-thumbnail d-block mx-auto" id="aa-swartz" src="img/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" alt="Aarom-Swartz-Profile-picture">
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="text-center quote">Information is power. But like all power, there are those who want to keep it for themselves.</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div> -->
-
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+        <!-- Section 2-->
+      	<div class="section container-fluid">
+          <div class="row">
+            <div class="container-fluid">
+              <h1 class="display-4 text-center">
+                Timeline
+              </h1>
+            </div>
+              <div class="container">
+                <div id="example1">
+                	<div data-year="2014" class="active">Short text here</div>
+                	<div data-year="2011">Short text here</div>
+                	<div data-year="2010">Short text here</div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.timeliny@1.0.1/dist/jquery.timeliny.min.js"></script>
   </body>
 </html>
