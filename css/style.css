@@ -1,0 +1,64 @@
+body {
+  padding-top: 65px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #292f36;
+  color: #ecf0f1;
+}
+.bio{
+  background-color: #e5dada;
+  /*min-height: 1vh;
+  max-height: 1vh;*/
+}
+
+#aa-swartz{
+    width:500px; /* you can use % */
+    height: auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0 30px 0;
+}
+
+.navbar-custom {
+  background-color: #840032 !important;
+}
+
+.quote {
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: bold;
+  quotes: "“" "”";
+
+}
+
+.quote:before {
+    content: open-quote;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.quote:after {
+    content: close-quote;
+    font-weight: bolder;
+}
+
+.navbar .navbar-expand-lg .navbar-dark .bg-dark .fixed-top .navbar-custom{
+  height: 1vh;
+}
+
+@media (min-width: 1199px) {
+  .quote{
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .quote:before {
+      content: open-quote;
+      font-size: 40px;
+      font-weight: bolder;
+  }
+  .quote:after {
+      content: close-quote;
+      font-weight: bolder;
+  }
+}

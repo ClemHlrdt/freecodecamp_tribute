@@ -1,0 +1,19 @@
+{
+  "name": "freecodecamp_tribute",
+  "version": "1.0.0",
+  "description": "Tribute page made with HTML, CSS and JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tribute",
+    "freecodecamp"
+  ],
+  "author": "Clément Hélardot",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "fullpage.js": "^2.9.5"
+  }
+}
