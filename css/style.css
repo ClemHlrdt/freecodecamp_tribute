@@ -10,10 +10,7 @@ body {
   max-height: 1vh;*/
 }
 
-#aa-swartz{
-    width:500px; /* you can use % */
-    height: auto;
-}
+
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -30,7 +27,6 @@ h1 {
   padding-bottom: 60px;
   font-weight: bold;
   quotes: "“" "”";
-
 }
 
 .quote:before {
@@ -43,11 +39,144 @@ h1 {
     font-weight: bolder;
 }
 
-.navbar .navbar-expand-lg .navbar-dark .bg-dark .fixed-top .navbar-custom{
-  height: 1vh;
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-@media (min-width: 1199px) {
+.event {
+  font-size: 1em;
+}
+
+.description {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.main-title {
+  font-size: 1.5em;
+  padding-top: 5%;
+}
+.description{
+  font-size: .7em;
+}
+#aa-swartz{
+  width: 300px;
+  height: auto;
+}
+.quote{
+  font-size: 1em;
+  padding-top: 10px;
+}
+.quote:before {
+    content: open-quote;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.quote:after {
+    content: close-quote;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) {
+  .main-title {
+    font-size: 2em;
+  }
+  .description{
+    font-size: .8em;
+  }
+  #aa-swartz{
+    width: 300px;
+    height: auto;
+  }
+  .quote{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .quote:before {
+      content: open-quote;
+      font-size: 25px;
+      font-weight: bolder;
+  }
+  .quote:after {
+      content: close-quote;
+      font-weight: bolder;
+      font-size: 25px;
+  }
+  .event{
+    font-size: 1.1em;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) {
+  .quote{
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .description{
+    font-size: 1em;
+  }
+  #aa-swartz{
+    width: 400px;
+    height: auto;
+  }
+  .main-title{
+    font-size: 2.5em;
+  }
+  .quote:before {
+      content: open-quote;
+      font-size: 20px;
+      font-weight: bolder;
+  }
+  .quote:after {
+      content: close-quote;
+      font-weight: bolder;
+      font-size: 20px;
+  }
+  .event{
+    font-size: 1.2em;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) {
+  .main-title{
+    font-size: 3em;
+  }
+  #aa-swartz{
+      width:500px;
+      height: auto;
+  }
+  .description {
+    font-size: 1.1em;
+    line-height: 1.6em;
+  }
+  .quote:before {
+      content: open-quote;
+      font-size: 30px;
+      font-weight: bolder;
+  }
+  .quote:after {
+      content: close-quote;
+      font-weight: bolder;
+      font-size: 30px;
+  }
+  .event{
+    font-size: 1.5em;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
+  .main-title{
+    font-size: 3.5em;
+  }
+  #aa-swartz{
+      width:500px; /* you can use % */
+      height: auto;
+  }
   .quote{
     font-size: 40px;
     padding-top: 50px;
@@ -60,13 +189,13 @@ h1 {
   .quote:after {
       content: close-quote;
       font-weight: bolder;
+      font-size: 40px;
   }
-}
-
-.event {
-  font-size: 1.5em;
-}
-
-.fas::after{
-  content: ">";
+  .event{
+    font-size: 1.7em;
+  }
+  .description {
+    font-size: 1.25em;
+    margin: 0 auto;
+  }
 }
